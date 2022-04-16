@@ -3,7 +3,7 @@ html {
 }
 body {
   margin: 0;
-  background-image: url(./resources/5651992.png);
+  background-image: url(../../resources/5651992.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -82,12 +82,49 @@ li a:hover {
 }
 hr{
   margin-top: 15px;
+  
   width: 15%;
 }
-#tag,#detail{
+#tag{
   font-family: "Nunito", sans-serif;
   color: aliceblue;
   height: 2rem;
   font-size: 1rem;
   text-align: center;
+}
+#detail{
+  font-family: "Nunito", sans-serif;
+  color: aliceblue;
+  font-size: 1rem;
+  text-align: center;
+}
+#projintro{
+ 
+    font-family: "Nunito", sans-serif;
+    color: aliceblue;
+    font-size: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+ 
+}
+#Projects{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+#d1{
+  margin-top: 10px;
+  height: 222px;
+  width: 475px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+    color: aliceblue;
+    font-size: 1rem;
+}
+#h1{
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }

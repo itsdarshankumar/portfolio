@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-image: url(../../resources/5651992.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+p {
+  margin: 1rem;
+  text-align: center;
+}
+#navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navli {
+  float: left;
+}
+
+.nava {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nava:hover {
+  background-color: #111;
+}
+h1 {
+  font-family: "Nunito", sans-serif;
+  color: aliceblue;
+}
+hr{
+    margin-top: 15px;
+    width: 15%;
+  }
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+#details{
+    font-family: "Nunito", sans-serif;
+  color: aliceblue; 
+  font-size: 1.5rem;
+}
+#details a {
+    font-family: "Nunito", sans-serif;
+  color: rgba(214, 214, 214, 0.79); 
+  text-decoration: none;
+}

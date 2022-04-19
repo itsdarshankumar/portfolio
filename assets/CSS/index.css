@@ -55,6 +55,7 @@ li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 1rem;
 }
 #name {
   font-family: "Nunito", sans-serif;
@@ -97,6 +98,9 @@ hr {
   font-size: 1rem;
   text-align: center;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.75rem;
 }
 #detail {
   font-family: "Nunito", sans-serif;
@@ -106,6 +110,7 @@ hr {
   overflow-y: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  display: flex;
 }
 #projintro {
   font-family: "Nunito", sans-serif;

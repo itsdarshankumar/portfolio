@@ -84,7 +84,6 @@ li a:hover {
   margin-bottom: 2%;
   height: 20rem;
   width: 15.5rem;
-  overflow: hidden;
 }
 hr {
   margin-top: 1rem;
@@ -145,9 +144,7 @@ hr {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  overflow: hidden;
-  height: 30rem;
-  width: 23rem;
+  width: 28.5rem;
 }
 #name p {
   margin: 0;
@@ -159,6 +156,42 @@ hr {
   display: flex;
   justify-content: center;
 }
-.h1 p{
+.h1 p {
   margin: 0;
+}
+
+.animate {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  .casinoroyale {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 100vw;
+  }
 }

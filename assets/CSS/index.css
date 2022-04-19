@@ -19,17 +19,7 @@ body {
   justify-content: center;
   background-color: #333;
 }
-#intropage {
-  font-family: "Nunito", sans-serif;
-  color: aliceblue;
-  font-size: 4rem;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 p {
   margin: 1rem;
   text-align: center;
@@ -72,59 +62,103 @@ li a:hover {
   height: 2rem;
   font-size: 2rem;
   text-align: center;
+  padding: 0.5rem;
+}
+#intropage {
+  font-family: "Nunito", sans-serif;
+  color: aliceblue;
+  font-size: 4rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 #dp {
   margin: 50% auto;
   margin-top: 0;
   margin-bottom: 2%;
-  height: 334px;
-  width: 250px;
+  height: 20rem;
+  width: 15.5rem;
+  overflow: hidden;
 }
-hr{
-  margin-top: 15px;
-  
+hr {
+  margin-top: 1rem;
+
   width: 15%;
 }
-#tag{
+#tag {
   font-family: "Nunito", sans-serif;
   color: aliceblue;
   height: 2rem;
   font-size: 1rem;
   text-align: center;
+  overflow: hidden;
 }
-#detail{
+#detail {
   font-family: "Nunito", sans-serif;
   color: aliceblue;
   font-size: 1rem;
   text-align: center;
+  overflow-y: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
-#projintro{
- 
-    font-family: "Nunito", sans-serif;
-    color: aliceblue;
-    font-size: 3rem;
-    margin-top: 3rem;
-    text-align: center;
- 
+#projintro {
+  font-family: "Nunito", sans-serif;
+  color: aliceblue;
+  font-size: 3rem;
+  text-align: center;
 }
-#Projects{
-  margin-top: 1.5rem;
+#Projects {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin: auto;
+  flex-wrap: wrap;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
+  overflow: hidden;
 }
-#d1{
-  margin-top: 10px;
-  height: 222px;
-  width: 475px;
+
+.d1 p {
+  margin: 0;
   text-align: center;
   font-family: "Nunito", sans-serif;
-    color: aliceblue;
-    font-size: 1rem;
+  color: aliceblue;
+  font-size: 1rem;
 }
-#h1{
+.h1 {
   text-align: center;
   font-family: "Nunito", sans-serif;
-    color: aliceblue;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+  color: aliceblue;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+.casinoroyale {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  overflow: hidden;
+  height: 30rem;
+  width: 23rem;
+}
+#name p {
+  margin: 0;
+}
+#tag p {
+  margin: 0;
+}
+.p1 {
+  display: flex;
+  justify-content: center;
+}
+.h1 p{
+  margin: 0;
 }
